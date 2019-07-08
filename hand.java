@@ -8,8 +8,8 @@ public class Hand {
 			        switch (state) {
 
 					            case "Grabbing":
-							                case "Waving":
-							                case "Pointing":
+					            	case "Waving":
+					            		case "Pointing":
 							                case "Typing":
 							                    this.state = state;
 									                    break;
@@ -26,5 +26,9 @@ public class Hand {
 		    public String getState(){
 			            return this.state;
 				        }
+
+		System.out.println("Hi, here are my changes")
 }
+
+
 
